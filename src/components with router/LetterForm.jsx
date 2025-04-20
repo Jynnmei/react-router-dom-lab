@@ -54,7 +54,7 @@ const LetterForm = (props) => {
               name="recipient"
               value={formData.recipient}
               onChange={handleChange}
-              placeholder="Recipient name"
+              placeholder="Recipient name (Example: Dear Alex)"
             ></input>
           </div>
 

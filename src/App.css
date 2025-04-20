@@ -74,3 +74,19 @@ button:hover {
   flex-direction: row;
   gap: 20px;
 }
+
+.letter-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.letter-container li {
+  width: 100%;
+  border: 1px solid #b9b9b9;
+}
+
+.letter-recipient,
+.letter-message {
+  margin-bottom: 20px;
+}

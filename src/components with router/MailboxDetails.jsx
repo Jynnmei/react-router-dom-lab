@@ -19,7 +19,8 @@ const MailboxDetails = (props) => {
   return (
     <div className="mailbox-details">
       <section className="mailbox-info">
-        <h2>Details</h2>
+        <h1>Mailbox {mailboxId}</h1>
+        <h3>Details</h3>
         <p>
           <strong>Boxholder:</strong> {selectedBox._id}
         </p>
@@ -32,7 +33,7 @@ const MailboxDetails = (props) => {
       </section>
 
       <section className="letters-section">
-        <h2>Letters</h2>
+        <h3>Letters</h3>
         <div className="letter-container">
           {selectedLetters.length === 0 && <p>No letters yet.</p>}
           {selectedLetters.length > 0 && (

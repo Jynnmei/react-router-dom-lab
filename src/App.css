@@ -75,6 +75,10 @@ button:hover {
   gap: 20px;
 }
 
+.letters-section {
+  margin-top: 50px;
+}
+
 .letter-container ul {
   display: flex;
   flex-direction: column;
